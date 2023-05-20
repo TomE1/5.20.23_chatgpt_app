@@ -5,7 +5,16 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+}
+
+p{
+  color: #7d6c6c;
+}
+
+h2{
+  color: #7d6c6c;
+
 }
 
 h1 {
@@ -30,12 +39,11 @@ h1 {
   background-color: #f0e3e3; /* Updated field background color */
 }
 
-
 #add-button {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
@@ -56,7 +64,7 @@ h1 {
   border-radius: 5px;
 }
 
-.todo-item input[type="checkbox"] {
+.todo-item input[type='checkbox'] {
   margin-right: 10px;
 }
 
@@ -69,15 +77,6 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
-
-#footer-section {
-  margin-top: auto;
-  background-color: #1d0606;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
-
 
 /* Styles for mobile and tablets */
 @media (max-width: 768px) {
