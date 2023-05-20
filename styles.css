@@ -3,6 +3,9 @@ body {
   background-color: #333333; /* Updated background color */
   margin: 0;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1 {
@@ -65,4 +68,28 @@ h1 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+#footer-section {
+  margin-top: auto;
+  background-color: #1d0606;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Styles for mobile and tablets */
+@media (max-width: 768px) {
+  #todo-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  #todo-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
